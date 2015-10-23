@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Grass" tilewidth="32" tileheight="32">
+  <image source="grass-tiles-2-small.png" trans="ff00ff" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="73" name="pcon" tilewidth="32" tileheight="32">
+  <image source="../../pcon.png" trans="ff00ff" width="832" height="768"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzzZGBg8KQzTsYjjo5h4l5AHEIBDkWzKwWIUynA+Wju2wjE/owMDLOB9BwgngvE89DYC6BqsOFOtHCBmbcVSG+D+t8biH2A2BeI/YC4joB5yGEKMy+NATeeQYb7yMWdDKjxQS3z0P1LiXm08K8PFOOLO1LMg6VHfHFHin8pMQObefjSPC78GppvYHpBeeot1L9PyTAPlodgYb4XKV7JMe88Wn7Zi5TuyDFvNrR8gOG3FLqPlRF32RsClHvDQBp+y4C9bAZhAHwcmXU=
+  </data>
+ </layer>
+ <objectgroup name="Wall">
+  <properties>
+   <property name="wall" value="true"/>
+  </properties>
+  <object x="416" y="448" width="96" height="64"/>
+  <object x="416" y="544" width="128" height="64"/>
+  <object x="544" y="448" width="96" height="160"/>
+  <object x="576" y="96" width="64" height="352"/>
+  <object x="0" y="0" width="640" height="96"/>
+  <object x="0" y="96" width="96" height="288"/>
+  <object x="0" y="448" width="32" height="192"/>
+  <object x="32" y="608" width="608" height="32"/>
+  <object x="128" y="128" width="256" height="64"/>
+ </objectgroup>
+ <objectgroup name="Enemies"/>
+ <objectgroup name="pSwitch">
+  <object name="testmap_pSwitch1" x="128" y="416" width="32" height="32">
+   <properties>
+    <property name="broadcast" value="testmap_door"/>
+   </properties>
+  </object>
+  <object x="96" y="320" width="32" height="32"/>
+  <object x="128" y="352" width="32" height="32"/>
+  <object x="96" y="384" width="32" height="32"/>
+  <object x="64" y="416" width="32" height="32"/>
+  <object x="32" y="384" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Door">
+  <object name="testmap_door" x="0" y="384" width="32" height="32">
+   <properties>
+    <property name="isOpen" value="true"/>
+   </properties>
+  </object>
+  <object name="testmap_door" x="0" y="416" width="32" height="32">
+   <properties>
+    <property name="isOpen" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

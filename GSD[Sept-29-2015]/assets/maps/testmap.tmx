@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Grass" tilewidth="32" tileheight="32">
+  <image source="../../../GSD/tileset/grass-tiles-2-small.png" trans="ff00ff" width="384" height="192"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="8" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxdzjsKgDAQRdHgN0RQokTUSgsL979B78ATBotTJHMnJIYQVmdB+d212HGg09wkzWpsqNCota5HxoQRg5oHs/ajmlvdicu9n9w/sva+szUvMccDOg==
+  </data>
+ </layer>
+ <objectgroup name="walls">
+  <object x="0" y="64" width="32" height="64">
+   <properties>
+    <property name="Collectible_Scrap" value="true"/>
+   </properties>
+  </object>
+  <object x="160" y="160" width="32">
+   <properties>
+    <property name="Collectible_Scrap" value="true"/>
+   </properties>
+  </object>
+  <object x="160" y="128" width="32" height="32">
+   <properties>
+    <property name="Collectible_Scrap" value="true"/>
+   </properties>
+  </object>
+  <object x="192" y="64" width="32" height="64">
+   <properties>
+    <property name="Collectible_Scrap" value="true"/>
+   </properties>
+  </object>
+  <object x="128" y="32" width="64" height="32">
+   <properties>
+    <property name="Collectible_Scrap" value="true"/>
+   </properties>
+  </object>
+  <object x="32" y="32" width="32" height="32">
+   <properties>
+    <property name="Collectible_Scrap" value="true"/>
+   </properties>
+  </object>
+  <object x="64" y="0" width="64" height="32">
+   <properties>
+    <property name="Collectible_Scrap" value="true"/>
+   </properties>
+  </object>
+  <object x="32" y="128" width="64" height="32">
+   <properties>
+    <property name="Collectible_Scrap" value="true"/>
+   </properties>
+  </object>
+  <object x="96" y="160" width="64" height="32">
+   <properties>
+    <property name="Collectible_Scrap" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object Layer 2"/>
+</map>

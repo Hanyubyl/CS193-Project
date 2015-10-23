@@ -1,0 +1,89 @@
+GSD NOTES
+
+Gameplay
+
+Puzzle-based
+
+Puzzle Types
+
+TYPE							SOLO 	 	MULTI
+Block Push						x			x
+Button Press w/ Block			x			x
+Switch Room						x			x
+---Button Press w/o Block					x
+Defend Objective				x			x
+---Defend Multiple Objectives				x
+Diversion Room								x
+Beam Block									x
+Assault Room								x
+
+Ranged Attacks are used to soften up the enemy by inflicting status effects
+Melee Attacks are used to destroy the enemy
+
+
+Attacks
+
+Punch - Weak, Short Ranged, Narrow Quick.
+Sword - Weak, Short Ranged, Sweeping, Quick.
+Axe - Moderate, Short Ranged, Sweeping, Medium
+Lance - High, Short Ranged, Narrow, Medium, CHARGE! Armor Crush
+Flail - Moderate, Moderate Ranged, Sweeping, Slow Armor Crush (min range weakness) (wind up)
+Pike - Moderate, Short Ranged, Narrow, Defensive, CHARGE! slows user (works in groups)
+
+Ranged
+Danmaku Bullet - Weak, Moderate Stun, Wide, Quick
+Danmaku Laser - Weak, High Stun, Very Narrow, Moderate
+Danmaku Bubble - Very Weak, Low Stun, Wide, Slow
+
+Arrow - Moderate, High Stun, Very Narrow, Moderate (ammunition)
+Musket - Moderate, High Stun, Very Narrow, Slow (ammunition)
+Cannon - Very High, High, Template, (needs attack marker) friendly fire (armor crush)
+
+Suicide Doll - Very High, High Stun, 
+
+Formation
+
+Defensive
+
+Pike Wall
+Cross-Trap
+Cannon-Trap
+
+Offensive
+Concave Jaw
+Crossfire Barrage
+Bomber Barrage
+
+
+Game design principle 
+Melee First or Danmaku First?
+
+
+
+KILL ROOM
+
+Swarming
+Dodging Room
+Flank Room
+
+Monster Types
+
+Weak Enemy
+-----
+Minor Feral Youkai - Runs quickly straight lines if spots. Attack by contact. No Ranged
+Carnivore Plant - Bites Player if too close. Attack by Bite. No Ranged
+Popcorn Fairy - Slowly Follows Player - Occasionally Shooting Ranged
+
+types of switches
+
+pressure plate
+toggle switch
+
+----------------------
+
+
+animation
+
+animation is stored in tables, but loaded as quads?
+
+
